@@ -1,0 +1,194 @@
+a {
+    text-decoration: none;
+}
+
+/* nav part start */
+
+.menu_bg {
+    background-color: slategray;
+}
+
+.menu_bg ul li a {
+    color: black !important;
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.hire a {
+    color: white;
+    padding: 7px 8px;
+    border: 2px solid black;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    font-family: 'Roboto', sans-serif;
+    transition: 0.5s;
+    -webkit-transition: 0.5s;
+    -moz-transition: 0.5s;
+    -ms-transition: 0.5s;
+    -o-transition: 0.5s;
+    font-size: 15px;
+    font-weight: 500;
+}
+
+/* nav part end */
+
+/* about part start */
+
+#about{
+    padding: 100px 0;
+}
+
+.about_me {
+    text-align: center;
+}
+
+.about_me h4 {
+    font-family: 'Roboto', sans-serif;
+    color: black;
+    font-size: 25px;
+    font-weight: 500;
+}
+
+.about_me p {
+    font-family: 'Roboto', sans-serif;
+    color: black;
+    font-size: 15px;
+    font-weight: 400;
+}
+
+/* about part end */
+
+/* portfolio part start */
+
+#portfolio {
+    padding: 100px 0;
+    background-color: #EEF4FA;
+}
+
+.p_up h4 {
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    color: black;
+    font-size: 25px;
+    font-weight: 500;
+}
+
+.p_left {
+    padding: 50px 20px;
+    background-color: white;
+    margin-top: 50px;
+    text-align: center;
+}
+
+.p_left h4 {
+    font-family: 'Roboto', sans-serif;
+    color: black;
+    font-size: 25px;
+    font-weight: 500;
+}
+
+.p_left h5 {
+    font-family: 'Roboto', sans-serif;
+    color: darkslategray;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.p_left p {
+    font-family: 'Roboto', sans-serif;
+    color: black;
+    font-size: 15px;
+    font-weight: 400;
+}
+
+.p_right {
+    padding: 50px 20px;
+    background-color: white;
+    margin-top: 50px;
+    text-align: center;
+}
+
+.p_right h4 {
+    font-family: 'Roboto', sans-serif;
+    color: black;
+    font-size: 25px;
+    font-weight: 500;
+}
+
+.p_right h5 {
+    font-family: 'Roboto', sans-serif;
+    color: darkslategray;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.p_right p {
+    font-family: 'Roboto', sans-serif;
+    color: black;
+    font-size: 15px;
+    font-weight: 400;
+}
+
+/* portfolio part end */
+
+/* what part start */
+
+#what {
+    padding: 100px 0;
+}
+
+.what_up h4 {
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    color: black;
+    font-size: 25px;
+    font-weight: 500;
+}
+
+.what_up p {
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    color: black;
+    font-size: 15px;
+    font-weight: 400;
+}
+
+.pd {
+    padding: 40px 30px;
+    box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+    margin-top: 50px;
+}
+
+.pd h5 {
+    font-family: 'Roboto', sans-serif;
+    color: black;
+    font-size: 20px;
+    font-weight: 500;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.pd p {
+    font-family: 'Roboto', sans-serif;
+    color: black;
+    font-size: 15px;
+    font-weight: 400;
+}
+
+/* what part end */
+
+/* responsive part start */
+
+@media(max-width:575px) {
+
+    .menu_bg img {
+        height: 25px;
+    }
+
+}
+
+/* responsive part end */
